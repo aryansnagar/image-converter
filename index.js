@@ -30,6 +30,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    function clearCanvas() {
+    const canvas = document.getElementById("imageCanvas");
+    const ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }
+
     downloadBtn.addEventListener("click", function () {
         if (!currentImage) {
             alert("Please upload an image first.");
@@ -52,8 +58,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-function clearCanvas() {
-    const canvas = document.getElementById("imageCanvas");
-    const ctx = canvas.getContext("2d");
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-}
+
