@@ -156,21 +156,28 @@ header nav div h1 {
     background-color: #568c47;
 }
 
-#format_select {
+#se-co {
     margin: 0px 20px 0px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#format_select {
     padding: 13px 15px;
     width: fit-content;
     height: fit-content;
     border: none;
-    /* border: 1px solid var(--text-primary); */
     border-right: 10px solid #f0f0f0;
     outline: none;
-    font-weight: 400;
     border-radius: 5px;
     background-color: #f0f0f0;
 }
 
-
+#con04 {
+    padding: 20px 0px;
+    width: calc(100%);
+    height: fit-content;
+}
 
 
 footer {
