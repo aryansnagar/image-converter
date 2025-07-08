@@ -53,26 +53,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function clearCanvas() {
-    const canvas = document.getElementById("imageCanvas");
+    const canvas = document.getElementById("image_canvas");
     const ctx = canvas.getContext("2d");
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
 // yellow costbar// yellow costbar// yellow costbar// yellow costbar
 // yellow costbar// yellow costbar// yellow costbar// yellow costbar
 // yellow costbar// yellow costbar// yellow costbar// yellow costbar
