@@ -82,14 +82,3 @@ function clearCanvas() {
 // yellow costbar// yellow costbar// yellow costbar// yellow costbar
 // yellow costbar// yellow costbar// yellow costbar// yellow costbar
 // yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
-// yellow costbar// yellow costbar// yellow costbar// yellow costbar
