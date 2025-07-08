@@ -1,5 +1,6 @@
 :root {
     --background: #ffffff;
+    --faded: #f0f0f0;
     --text-primary: #010101;
     --text-secondary: #5d5d5d;
 }
@@ -103,7 +104,6 @@ header nav div h1 {
     width: calc(100% - 40px);
     height: fit-content;
     display: flex;
-    /* flex-direction: column; */
     align-items: start;
     justify-content: space-between;
     border: 1px dashed var(--text-primary);
@@ -122,15 +122,14 @@ header nav div h1 {
 }
 
 #con02 canvas {
-    margin: 10px 0px 0px 0px;
     padding: 5px;
     width: calc(100% - 10px);
     max-width: 300px;
     height: auto;
-    max-height: 160px;
+    max-height: 150px;
     border-radius: 5px;
     object-fit: cover;
-    background-color: #e6e6e6;
+    background-color: var(--faded);
 }
 
 #con03 {
@@ -146,6 +145,23 @@ header nav div h1 {
     margin: 0px auto 0px 0px;
 }
 
+#se-co {
+    margin: 0px 20px 0px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#se-co select {
+    padding: 13px 15px;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-right: 10px solid var(--faded);
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--faded);
+}
+
 #con03 button {
     padding: 10px 15px 10px 7px;
     border: none;
@@ -156,29 +172,15 @@ header nav div h1 {
     background-color: #568c47;
 }
 
-#se-co {
-    margin: 0px 20px 0px 0px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-#format_select {
-    padding: 13px 15px;
-    width: fit-content;
-    height: fit-content;
-    border: none;
-    border-right: 10px solid #f0f0f0;
-    outline: none;
-    border-radius: 5px;
-    background-color: #f0f0f0;
-}
-
 #con04 {
     padding: 20px 0px;
     width: calc(100%);
     height: fit-content;
 }
 
+#con04 h2 {
+    margin: 0px 0px 20px 0px;
+}
 
 footer {
     padding: 20px 0px;
@@ -192,59 +194,3 @@ footer {
 footer p {
     cursor: pointer;
 }
-
-#container {
-    margin: 0px auto 0px;
-    width: 100%;
-    max-width: 900px;
-    height: fit-content;
-}
-
-#label_button {
-    display: flex;
-    align-items: center;
-    justify-items: start;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px 15px;
-    font-size: 14px;
-    font-weight: 400;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #26284e;
-    color: #fff;
-}
-
-
-
-#container div {
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-
-
-
-
-/* footer {
-    margin: 30px auto;
-    padding: 0px;
-    width: 100%;
-    max-width: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-footer p {
-    color: #ababab;
-} */
-
-/* footer a {
-    text-decoration: none;
-    color: #4d4891;
-} */
